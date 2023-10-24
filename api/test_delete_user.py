@@ -2,8 +2,8 @@ import requests
 import pytest
 
 from config import USER_URL
-from utils.messages import WRONG_STATUS_CODE
-from utils.user_utils import create_user
+from messages import WRONG_STATUS_CODE
+from user import create_user
 
 @pytest.mark.parametrize("user_name", ['den12', 'pol12', 'tol12'])
 def test_delete_user(user_name):

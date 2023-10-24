@@ -1,1 +1,6 @@
 venv
+.vscode
+.pytest_cache
+sql/pet_store_orm.db
+sql/pet_store.db
+__pycache__

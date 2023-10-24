@@ -3,8 +3,8 @@ import json
 import pytest
 
 from config import USER_URL
-from utils.messages import WRONG_STATUS_CODE, WRONG_USER_ID
-from utils.user_utils import delete_user, create_user, get_user
+from messages import WRONG_STATUS_CODE, WRONG_USER_ID
+from user import delete_user, create_user, get_user
 
 user_name = "djarin21"
 url = USER_URL + '/' + user_name
